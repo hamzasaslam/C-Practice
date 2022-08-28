@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a, b, c ;
+cout<<"Please Enter First Number"<<endl;
+cin>>a;
+cout<<"Please Enter the Second Number"<<endl;
+cin>>b;
+cout<<"The Sum is: "<< c=a+b <<endl;
+return 0;
+}
