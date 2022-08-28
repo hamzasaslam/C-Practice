@@ -6,6 +6,6 @@ cout<<"Please Enter First Number"<<endl;
 cin>>a;
 cout<<"Please Enter the Second Number"<<endl;
 cin>>b;
-cout<<"The Sum is: "<< c=a+b <<endl;
+cout<<"The Sum is: "<< a+b <<endl;
 return 0;
 }
