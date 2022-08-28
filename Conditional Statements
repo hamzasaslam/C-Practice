@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int age;
+    cout << "Please Enter Your Age" << endl;
+    cin>>age;
+    if (age < 18)
+        {
+            cout << "You are a juvinile"<<endl;
+        }
+    
+    else if(age>70){
+        cout<<"You are a Senior Citizen";
+    } 
+     
+    else{
+        cout << "You are an adult";
+    }
+
+    return 0;
+}
