@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "enter the number of terms please:\n";
+
+    int i, n, N, sum = 0;
+    cin >> n;
+    cout << "First " << n << " even numbers:\n";
+    for (i = 1; i <= n; i++)
+    {
+        cout << 2 * i << endl;
+        sum += (2 * i);
+    }
+
+cout << "\nThe sum of numbers is:\n"
+     << sum;
+
+return 0;
+}
